@@ -1,0 +1,26 @@
+2023-12-21 21:56:31,145 - INFO - Connected to the server at 127.0.0.1:51545
+2023-12-21 21:59:58,371 - INFO - Connected to the server at 127.0.0.1:57545
+2023-12-21 21:59:58,372 - INFO - Starting the message receiving thread.
+2023-12-21 21:59:58,373 - INFO - Waiting to receive messages...
+2023-12-21 21:59:58,373 - INFO - Entering the main menu loop.
+2023-12-21 22:00:21,247 - INFO - Connected to the server at 127.0.0.1:57545
+2023-12-21 22:00:21,248 - INFO - Starting the message receiving thread.
+2023-12-21 22:00:21,248 - INFO - Waiting to receive messages...
+2023-12-21 22:00:21,248 - INFO - Entering the main menu loop.
+2023-12-21 22:00:25,463 - INFO - Connected to the server at 127.0.0.1:57545
+2023-12-21 22:00:25,464 - INFO - Starting the message receiving thread.
+2023-12-21 22:00:25,465 - INFO - Waiting to receive messages...
+2023-12-21 22:00:25,465 - INFO - Entering the main menu loop.
+2023-12-21 22:00:53,785 - INFO - Sending create account request to 127.0.0.1:57545 -> JOIN Mohameed 135
+2023-12-21 22:00:54,059 - INFO - Waiting to receive messages...
+2023-12-21 22:00:54,059 - INFO - Received response from 127.0.0.1 -> AUTH CHALLENGE
+
+2023-12-21 22:01:12,531 - INFO - Sending create account request to 127.0.0.1:57545 -> JOIN WAEL 356
+2023-12-21 22:01:12,804 - INFO - Received response from 127.0.0.1 -> AUTH CHALLENGE
+
+2023-12-21 22:01:12,804 - INFO - Waiting to receive messages...
+2023-12-21 22:01:37,680 - INFO - Sending create account request to 127.0.0.1:57545 -> JOIN Omar 347
+2023-12-21 22:01:37,957 - INFO - Waiting to receive messages...
+2023-12-21 22:01:37,957 - INFO - Received response from 127.0.0.1 -> AUTH CHALLENGE
+
+2023-12-21 22:02:19,861 - INFO - Waiting to receive messages...
