@@ -1,0 +1,177 @@
+INFO:root:Send to 127.0.0.1:15600 -> JOIN ahmed 1234
+INFO:root:Received from 127.0.0.1 -> join-success
+INFO:root:Send to 127.0.0.1:15600 -> LOGIN ahmed 1234 12345
+INFO:root:Received from 127.0.0.1 -> 
+INFO:root:Send to 127.0.0.1:15601 -> JOIN A c
+INFO:root:Received from 127.0.0.1 -> join-exist
+INFO:root:Send to 127.0.0.1:15601 -> JOIN FF 12
+INFO:root:Received from 127.0.0.1 -> join-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT
+INFO:root:Send to 127.0.0.1:15601 -> JOIN a 12
+INFO:root:Received from 127.0.0.1 -> join-exist
+INFO:root:Send to 127.0.0.1:15601 -> JOIN s 12
+INFO:root:Received from 127.0.0.1 -> join-success
+INFO:root:Send to 127.0.0.1:15601 -> JOIN d 12
+INFO:root:Received from 127.0.0.1 -> join-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT
+INFO:root:Send to 127.0.0.1:15601 -> JOIN s 12
+INFO:root:Received from 127.0.0.1 -> join-exist
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN s 12 12345
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN d 12 12343
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to start chat with s
+INFO:root:Sent CHAT request for s to registry
+INFO:root:Received response from registry: chat-success 127.0.0.1:12345
+INFO:root:Chat with s at 127.0.0.1:12345 can be initiated
+INFO:root:Send to 127.0.0.1:12345 -> CHAT-REQUEST 12343 d
+INFO:root:Received from 127.0.0.1 -> CHAT-REQUEST 12343 d
+INFO:root:Send to 127.0.0.1 -> OK s
+INFO:root:Received from 127.0.0.1:12345 -> OK s
+INFO:root:Send to 127.0.0.1:12343 -> OK
+INFO:root:Received from None -> OK
+INFO:root:Send to 127.0.0.1:12343 -> HI
+INFO:root:Received from None -> HI
+INFO:root:Send to 127.0.0.1:12345 -> OKwso
+INFO:root:Received from 127.0.0.1 -> OKwso
+INFO:root:Send to 127.0.0.1:12345 -> omg
+INFO:root:Received from 127.0.0.1 -> omg
+INFO:root:Send to 127.0.0.1:12343 -> 
+INFO:root:Send to 127.0.0.1:12345 -> gg
+INFO:root:Received from 127.0.0.1 -> gg
+INFO:root:Send to 127.0.0.1:12343 -> hh
+INFO:root:Received from None -> hh
+INFO:root:Send to 127.0.0.1:12343 -> wp
+INFO:root:Received from None -> wp
+INFO:root:Send to 127.0.0.1:12345 -> ss
+INFO:root:Received from 127.0.0.1 -> ss
+INFO:root:Send to 127.0.0.1:12343 -> hhhh
+INFO:root:Received from None -> hhhh
+INFO:root:Send to 127.0.0.1:12345 -> sdsddsd
+INFO:root:Received from 127.0.0.1 -> sdsddsd
+INFO:root:Received from 127.0.0.1 -> sdsd
+INFO:root:Send to 127.0.0.1:12345 -> sdsd
+INFO:root:Send to 127.0.0.1:12345 -> dsd
+INFO:root:Received from 127.0.0.1 -> dsd
+INFO:root:Send to 127.0.0.1:12343 -> weee
+INFO:root:Received from None -> weee
+INFO:root:Send to 127.0.0.1:12343 -> CANSEL
+INFO:root:Received from None -> CANSEL
+INFO:root:Send to 127.0.0.1:12343 -> CANCEL
+INFO:root:Received from None -> CANCEL
+INFO:root:Send to 127.0.0.1:12343 -> 
+INFO:root:Send to 127.0.0.1:12343 -> 
+INFO:root:Send to 127.0.0.1:12343 -> 
+INFO:root:Received from None -> 
+INFO:root:Send to 127.0.0.1:12345 -> CANCEL
+INFO:root:Received from 127.0.0.1 -> CANCEL
+INFO:root:Send to 127.0.0.1:12345 -> sasas
+INFO:root:Received from 127.0.0.1 -> sasas
+INFO:root:Send to 127.0.0.1:12343 -> REJECT
+INFO:root:Received from None -> REJECT
+INFO:root:Send to 127.0.0.1:12345 -> REJECT
+INFO:root:Received from 127.0.0.1 -> REJECT
+INFO:root:Send to 127.0.0.1:12345 -> :q
+INFO:root:Send to 127.0.0.1:12343 -> REJECT
+INFO:root:Send to 127.0.0.1:12343 -> :q
+INFO:root:Send to 127.0.0.1:15601 -> SEARCH s
+INFO:root:Received from 127.0.0.1 -> search-success 127.0.0.1:12345
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT d
+ERROR:root:OSError: [Errno 9] Bad file descriptor
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT s
+ERROR:root:OSError: [Errno 9] Bad file descriptor
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN s 12 12345
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to create chat room: ALOO
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN s 12 12345
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to create chat room: FFS
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN d 12 12343
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to join chat room: FFS
+INFO:root:Received response from registry: failed-join-chat-room
+INFO:root:Received response from registry: 
+ERROR:root:Error receiving chat room update: [Errno 54] Connection reset by peer
+ERROR:root:Error receiving chat room update: [Errno 54] Connection reset by peer
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN s 12 12345
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN d 12343 12343
+INFO:root:Received from 127.0.0.1 -> login-wrong-password
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN d 12 12343
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Send to 127.0.0.1:15601 -> JOIN q 12
+INFO:root:Received from 127.0.0.1 -> join-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN q 12 12344
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to start chat with q
+INFO:root:Sent CHAT request for q to registry
+INFO:root:Attempting to start chat with d
+INFO:root:Sent CHAT request for d to registry
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN q 12 12345
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN q 12 12345
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN s 12 12344
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to start chat with s
+INFO:root:Sent CHAT request for s to registry
+INFO:root:Received response from registry: chat-success 127.0.0.1:12344
+INFO:root:Chat with s at 127.0.0.1:12344 can be initiated
+INFO:root:Send to 127.0.0.1:12344 -> CHAT-REQUEST 12345 q
+INFO:root:Received from 127.0.0.1 -> CHAT-REQUEST 12345 q
+INFO:root:Send to 127.0.0.1 -> OK s
+INFO:root:Received from 127.0.0.1:12344 -> OK s
+INFO:root:Send to 127.0.0.1:12345 -> OK
+INFO:root:Received from None -> OK
+INFO:root:Send to 127.0.0.1:12345 -> HI
+INFO:root:Received from None -> HI
+INFO:root:Received from 127.0.0.1 -> SUP
+INFO:root:Send to 127.0.0.1:12344 -> SUP
+INFO:root:Send to 127.0.0.1:12345 -> MY MAN 
+INFO:root:Received from None -> MY MAN 
+INFO:root:Send to 127.0.0.1:12345 -> GG
+INFO:root:Received from None -> GG
+INFO:root:Send to 127.0.0.1:12345 -> HHH
+INFO:root:Received from None -> HHH
+INFO:root:Send to 127.0.0.1:15601 -> LOGIN d 12 12342
+INFO:root:Received from 127.0.0.1 -> login-success
+INFO:root:Attempting to start chat with s
+INFO:root:Sent CHAT request for s to registry
+INFO:root:Received response from registry: chat-success 127.0.0.1:12344
+INFO:root:Chat with s at 127.0.0.1:12344 can be initiated
+INFO:root:Send to 127.0.0.1:12344 -> CHAT-REQUEST 12342 d
+INFO:root:Received from 127.0.0.1 -> CHAT-REQUEST 12342 d
+INFO:root:Received from 127.0.0.1:12344 -> BUSY
+INFO:root:Received from 127.0.0.1 -> ff
+INFO:root:Send to 127.0.0.1:12344 -> ff
+INFO:root:Send to 127.0.0.1:12344 -> im out see u 
+INFO:root:Received from 127.0.0.1 -> im out see u 
+INFO:root:Send to 127.0.0.1:12345 -> see u 
+INFO:root:Received from None -> see u 
+INFO:root:Send to 127.0.0.1:12344 -> gg
+INFO:root:Received from 127.0.0.1 -> gg
+INFO:root:Send to 127.0.0.1:12344 -> f
+INFO:root:Received from 127.0.0.1 -> f
+INFO:root:Send to 127.0.0.1:12344 -> f
+INFO:root:Received from 127.0.0.1 -> f
+INFO:root:Send to 127.0.0.1:12345 -> f
+INFO:root:Received from None -> f
+INFO:root:Send to 127.0.0.1:12344 -> f
+INFO:root:Received from 127.0.0.1 -> f
+INFO:root:Send to 127.0.0.1:12345 -> f
+INFO:root:Received from None -> f
+INFO:root:Send to 127.0.0.1:12344 -> 
+INFO:root:Send to 127.0.0.1:12344 -> REJECT
+INFO:root:Received from 127.0.0.1 -> REJECT
+INFO:root:Send to 127.0.0.1:12344 -> CANCEL
+INFO:root:Send to 127.0.0.1:12345 -> REJECT
+INFO:root:Received from None -> REJECT
+INFO:root:Send to 127.0.0.1:12345 -> :q
+INFO:root:Send to 127.0.0.1:12344 -> REJECT
+INFO:root:Send to 127.0.0.1:12344 -> :q
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT q
+ERROR:root:OSError: [Errno 9] Bad file descriptor
+INFO:root:Send to 127.0.0.1:15601 -> LOGOUT s
+ERROR:root:OSError: [Errno 9] Bad file descriptor
